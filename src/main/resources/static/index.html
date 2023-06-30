@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body onload="connect()">
+<div>
+    <span>Message</span>
+    <br/>
+    <input type="text" id="messageToSend"/>
+    <button onclick="sendMessage()">Send</button>
+    <p id="response"></p>
+</div>
+
+<script src="stomp.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
